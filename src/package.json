@@ -1,0 +1,28 @@
+{
+  "name": "jasper-header",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trianglejuice/jasper-header"
+  },
+  "author": {
+    "name": "Jasper Van Proeyen",
+    "email": "jasper.vanproeyen@digipolis.be"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trianglejuice/jasper-header/issues"
+  },
+  "main": "jasper-header.umd.js",
+  "module": "jasper-header.js",
+  "jsnext:main": "jasper-header.js",
+  "typings": "jasper-header.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
