@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'jasper-header';
+import { HeaderModule } from 'jasper-header';
 
 @NgModule({
   declarations: [

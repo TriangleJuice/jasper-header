@@ -1,35 +1,35 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SampleComponent } from './sample.component';
-import { SampleDirective } from './sample.directive';
-import { SamplePipe } from './sample.pipe';
-import { SampleService } from './sample.service';
+import { HeaderComponent } from './header.component';
+import { HeaderDirective } from './header.directive';
+import { HeaderPipe } from './header.pipe';
+import { HeaderService } from './header.service';
 
-export * from './sample.component';
-export * from './sample.directive';
-export * from './sample.pipe';
-export * from './sample.service';
+export * from './header.component';
+export * from './header.directive';
+export * from './header.pipe';
+export * from './header.service';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    SampleComponent,
-    SampleDirective,
-    SamplePipe
+    HeaderComponent,
+    HeaderDirective,
+    HeaderPipe
   ],
   exports: [
-    SampleComponent,
-    SampleDirective,
-    SamplePipe
+    HeaderComponent,
+    HeaderDirective,
+    HeaderPipe
   ]
 })
-export class SampleModule {
+export class HeaderModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: SampleModule,
-      providers: [SampleService]
+      ngModule: HeaderModule,
+      providers: [HeaderService]
     };
   }
 }

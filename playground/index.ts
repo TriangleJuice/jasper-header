@@ -6,18 +6,18 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { SampleModule }  from 'jasper-header';
+import { HeaderModule }  from 'jasper-header';
 
 @Component({
   selector: 'app',
-  template: `<sample-component></sample-component>`
+  template: `<header-component></header-component>`
 })
 class AppComponent {}
 
 @NgModule({
   bootstrap: [ AppComponent ],
   declarations: [ AppComponent ],
-  imports: [ BrowserModule, SampleModule ]
+  imports: [ BrowserModule, HeaderModule ]
 })
 class AppModule {}
 
