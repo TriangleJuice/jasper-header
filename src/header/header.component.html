@@ -1,0 +1,13 @@
+<header class="o-header o-header--fixed aui-header" [ngClass]="{'has-logo': hasLogo}">
+    <ng-content select="aui-header-logo"></ng-content>
+
+    <div class="aui-header__content-wrapper">
+        <div class="aui-header__content">
+            <ng-content select="aui-header-content"></ng-content>
+        </div>
+
+        <div class="aui-header__menu-items">
+            <ng-content select="aui-header-menu-item"></ng-content>
+        </div>
+    </div>
+</header>

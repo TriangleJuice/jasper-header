@@ -1,0 +1,27 @@
+:host {
+  display: block; }
+
+:host /deep/ aui-header-content {
+  display: block;
+  height: 100%; }
+
+.aui-header {
+  transition: transform .25s ease-in-out;
+  will-change: transform; }
+  .aui-header.header--pinned {
+    top: 0; }
+  .aui-header.header--unpinned {
+    transform: translateY(-100%); }
+  .aui-header.has-logo.header--unpinned {
+    transform: translateY(-300%); }
+  .aui-header .aui-header__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 100%; }
+  .aui-header .aui-header__content {
+    flex: 1;
+    height: 100%; }
+  .aui-header .aui-header__menu-items {
+    display: flex;
+    justify-content: flex-end; }
